@@ -3,9 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Comic Sans MS;
 }
 
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -16,9 +17,33 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+.puppyName {
+  cursor: pointer;
 }
 
-@keyframes logo-spin {
+.puppyName:hover {
+  transform: scale(1.5);
+}
+
+.puppyDetail {
+  padding: 20px;
+  border: 0.1rem solid white;
+  box-shadow: 7px 7px 2px white;
+  background-color: rgb(48, 48, 48);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li:last-child {
+  margin: 20px 0;
+}
+
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -39,4 +64,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

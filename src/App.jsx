@@ -24,11 +24,11 @@ console.log(featuredPup);
         </a> */}
         {
           puppies.map((puppy) => {
-            return <p onClick={()=>{ setFeatPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p>
+            return <p onClick={()=>{ setFeatPupId(puppy.id)}} key={puppy.id} className="puppyName">{puppy.name}</p>
           })
         }
       {featPupId && (
-        <div>
+        <div className="puppyDetail">
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
